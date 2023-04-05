@@ -1,0 +1,142 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial';
+    letter-spacing: 3px;
+    background-color: rgb(227, 205, 175)
+  }
+
+
+a {
+    text-decoration: none;
+    color: rgb(60, 45, 19);
+}
+
+/* a:hover {
+    color: rgb(118, 94, 52);
+} */
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+img {
+    height: 5rem;
+    width: 5rem;
+}
+
+
+/* cart stuff */
+.cart {
+    float: right;
+    padding: 1rem;
+}
+
+
+.cart img {
+    height: 4rem;
+    width: auto;
+    border-radius: 0.5rem;
+}
+
+p, h1, h2 {
+    padding: 2rem;
+}
+h5 {
+    display: none;
+}
+
+
+h6 {
+    padding: 0.5rem;
+}
+
+/* Home page */
+.title {
+  position: absolute;
+  top: 51%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.title2 {
+  position: absolute;
+  top: 60%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.title3 {
+  position: absolute;
+  top: 65%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+
+}
+
+.title4 {
+  position: absolute;
+  top: 70%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.buttonH {
+  background: rgba(0, 181, 122, 0.3);
+  padding: 0.2rem 1rem;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 20px;
+}
+
+.buttonH:hover {
+  background: rgb(70, 181, 122);
+  color: antiquewhite;
+}
+
+/* .action {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-image: alt(img1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center; */
+    /* animation: change 18s infinite ease-in-out; */
+/* } */
+
+.content a {
+    background: rgba(0, 181, 122, 0.3);
+    padding: 8.25px 24px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+
+.content a:hover {
+    background: rgb(70, 181, 122);
+    color: antiquewhite;
+}
